@@ -28,7 +28,7 @@ function Homepage() {
           .join("<br />"),
     },
   ]);
-  const [customUserName, setCustomUserName] = useState("");
+
   const [userInput, setUserInput] = useState("");
   const handleArrowKeyPress = (event: { key: string }) => {
     if (event.key === "ArrowUp") {
@@ -131,7 +131,7 @@ function Homepage() {
         const splitCommand = command.split(" ");
         const name = splitCommand.slice(1).join(" ");
         // set the custom username
-        setCustomUserName(name);
+        
         // update history
         setHistory((history) => [
           ...history,

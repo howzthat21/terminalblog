@@ -399,7 +399,7 @@ function Profile() {
           /* History */
           state.history.map((history, idx) => (
             <div className="mb-2" key={idx}>
-              <PromptBar customUserName={state.customUserName} />
+              <PromptBar />
               <span>{history.command}</span> <br />
               <span dangerouslySetInnerHTML={{ __html: history.output }} />
             </div>
@@ -407,7 +407,7 @@ function Profile() {
         }
         {/* Prompt */}
         <div className="flex flex-col sm:flex-row">
-          <PromptBar customUserName={state.customUserName} />
+          <PromptBar/>
           <span>
             <form onSubmit={handleSubmit} className="mt-2 sm:mt-0">
               <input
