@@ -1,28 +1,28 @@
 {
-  "name": "Tasnimul H. Tauhid",
+  "name": "Prabuddha Shrestha",
   "options": [
     {
       "label": "about",
       "about": "To know about me",
-      "value": "Hey there! I'm John Doe, a senior software engineer at Random Pvt. Ltd. in America  with a love for crafting digital solutions."
+      "value": "I am a computer science student obssesed with terminal theme portfolio websites"
     },
     {
       "label": "skills",
       "about": "To know about my skills",
-      "value": "I'm a versatile full-stack developer, adept at turning ideas into robust web applications. <br /> <br /> Proficient in MERN stack, Redux, React-Redux, Tailwind CSS, SQL, RESTful APIs and many more."
+      "value": "I am very efficient in Java for implementing Data Structures and Algorithms, PHP(LARAVEL) for Web development with react in tsx."
     },
     {
       "label": "experience",
       "about": "To know about my experience",
-      "value": "I have more than 10 years of experience.",
+      "value": "I have currently no experience. Still Studying",
       "data": [
         {
-          "label": "Random Pvt Ltd",
-          "value": "Senior software engineer <br />  Year:  2015-present"
+          "label": "Adarsh Higher Secondary School",
+          "value": "SEE"
         },
         {
-          "label": "Example Pvt Ltd",
-          "value": "Associate Software engineer <br />  Year:  2010-2015"
+          "label": "National College of Computer Studies",
+          "value": "2077-Present"
         }
       ]
     },
@@ -40,19 +40,19 @@
           "value": "Crafted an intuitive application for efficient tracking and management of inventory in warehouse environments."
         },
         {
-          "label": "Social Media Analytics Dashboard",
-          "value": "Built a powerful tool for analyzing social media data, providing insightful reports and visualizations."
+          "label": "Pro-Futsal",
+          "value": "A web application that allows random matchmaking among different skilled players to give them a competitive environment."
         },
         {
-          "label": "Real-time Chat Application",
-          "value": "Developed a cutting-edge messaging app with real-time capabilities, supporting both group chats and a fun array of emojis."
+          "label": "Transformer Model Comparison",
+          "value": "I compared different Transformer models like gpt-2, deepseek-r1:1.5b, gpt-neo to predict words based on a small dataset provided."
         }
       ]
     },
     {
       "label": "contact",
       "about": "To get my contact details",
-      "value": "Feel free to reach out! You can contact me for any inquiries or collaborations. <br/> Email:  john.doe@example.com  <br/> GitHub:  https://github.com/johnDoe  <br/> LinkedIn:  https://www.linkedin.com/in/johndoe"
+      "value": "Feel free to reach out! You can contact me for any inquiries or collaborations. <br/> Email:  prabuddhashrestha666@gmail.com  <br/> GitHub:  https://github.com/howzthat21  <br/> LinkedIn:  https://www.linkedin.com/in/prabuddha-shrestha"
     }
   ]
 }

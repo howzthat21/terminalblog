@@ -283,7 +283,7 @@ function Homepage() {
           /* History */
           history.map((history) => (
             <div className="mb-2 text-command">
-              <PromptBar customUserName={customUserName} />
+              <PromptBar  />
               <span>{history.command}</span> <br />
               <span dangerouslySetInnerHTML={{ __html: history.output }} />
             </div>
@@ -291,7 +291,7 @@ function Homepage() {
         }
         {/* Prompt */}
         <div className="flex flex-col sm:flex-row">
-          <PromptBar customUserName={customUserName} />
+          <PromptBar  />
           <span>
             <form onSubmit={handleSubmit} className="mt-2 sm:mt-0">
               <input

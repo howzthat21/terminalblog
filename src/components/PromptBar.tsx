@@ -1,14 +1,13 @@
-import { username, hostname, path, symbol } from "../../constants";
 
-const Prompt = (props: { customUserName: string }) => {
+
+const Prompt = () => {
   return (
     <span className="mr-1">
       <span className="text-shebang">
-        {props.customUserName == "" ? username : props.customUserName}@
-        {hostname}
+        Prabuddha
       </span>
-      :<span className="text-symbol">{path}</span>
-      {symbol}
+      :<span className="text-symbol">~</span>
+      $
     </span>
   );
 };
